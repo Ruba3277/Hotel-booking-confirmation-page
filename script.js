@@ -4,7 +4,7 @@ const mobileNav = document.querySelector(".mobile-nav");
 const navItems = document.querySelectorAll(".nav-item:not(.your-stay)");
 const bookingBtns= document.querySelectorAll(".booking-button");
 const copyButton=document.querySelector(".copy-button");
-const hostNote = document.querySelector(".host-note");
+
 const wifiPassword = document.querySelector(".wifi-password");
 
 function toggleActive(items, item) {
@@ -48,11 +48,8 @@ copyButton.addEventListener("click", async () => {
   }, 1000);
 });
 
-/*hostsun fan out*/
 
-hostNote.addEventListener("click", () => {
-  hostNote.classList.toggle("active");
-});
+
 
 /* Mobile menu */
 
