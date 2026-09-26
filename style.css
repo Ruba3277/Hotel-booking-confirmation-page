@@ -291,6 +291,8 @@ h1{
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    max-width: 300px;
+    margin: 0 auto;
 }
 .welcome-note{
     display: flex;
@@ -486,7 +488,9 @@ h2 span{
 .guest-guide{
     display: flex;
     gap: 2rem;
-    
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
     flex-direction: column;
     margin-block-start: 1rem;
 }
@@ -638,7 +642,7 @@ h4{
 
 /*desktop view*/
 
-@media screen and (min-width: 48rem) {
+@media screen and (min-width: 1048px) {
     .menu-toggle{display: none;}
     header{
         border-bottom: none;
@@ -740,6 +744,7 @@ h4{
     .guest-guide{
         flex-direction: row;
         justify-content: space-evenly;
+        max-width: unset;
     }
     
 
