@@ -636,7 +636,6 @@ h4{
 
 
 
-
 /*desktop view*/
 
 @media screen and (min-width: 48rem) {
@@ -693,20 +692,20 @@ h4{
     .welcome-note, .receipt{
         flex: 1;
     }
-    .host-note.active .host-sun{
+    .host-note:hover .host-sun{
         display: block;
         width: 140px;
         height: 140px;
         order:2;
         align-self: center;
     }
-    .host-note.active .welcome-note {
+    .host-note:hover .welcome-note {
         transform: rotate(-4deg);
     }
-    .host-note.active .receipt {
+    .host-note:hover .receipt {
         transform: rotate(4deg);
     }
-    .host-note.active{
+    .host-note:hover{
         max-width: 800px;
         cursor: pointer;
     }
