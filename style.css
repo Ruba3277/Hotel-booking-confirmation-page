@@ -291,7 +291,7 @@ h1{
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-    max-width: 300px;
+    max-width: 50%;
     margin: 0 auto;
 }
 .welcome-note{
@@ -489,7 +489,7 @@ h2 span{
     display: flex;
     gap: 2rem;
     width: 100%;
-    max-width: 300px;
+    max-width: 50%;
     margin: 0 auto;
     flex-direction: column;
     margin-block-start: 1rem;
